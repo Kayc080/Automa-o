@@ -1,0 +1,37 @@
+import pyautogui as auto
+import time
+80
+auto.FAILSAFE = True
+auto.PAUSE = 0.3
+time.sleep(5)
+
+auto.press("win")
+auto.write("Google", interval=0.25)
+auto.press("enter")
+time.sleep(2)
+auto.click(x=1725, y=147, duration=1)
+time.sleep(5)
+auto.click(x=154, y=214, duration=1)
+time.sleep(5)
+auto.write("santoskayc0801@gmail.com", interval=0.25)
+auto.press("enter")
+auto.press("tab")
+auto.write("Teste", interval=0.25)
+auto.press("tab")
+auto.write("Primeiro email enviado pela automacao", interval=0.25)
+time.sleep(3)
+auto.press("win")
+auto.write("Bloco de notas")
+auto.press("enter")
+auto.write("Minecraft e muito divertido", interval=0.25)
+auto.hotkey("ctrl", "S")
+auto.write("Automacao bloco de notas", interval=0.25)
+auto.press("enter")
+auto.click(x=1421, y=1003, duration=1)
+auto.moveTo(x=71, y=240, duration = 1)
+auto.scroll(1500)
+auto.click(x=78, y=121, duration=1)
+auto.click(x=242, y=387, duration=1)
+auto.press("enter")
+time.sleep(5)
+auto.hotkey("ctrl","enter")
